@@ -2,7 +2,6 @@
   "name": "todolistapi",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
@@ -17,6 +16,7 @@
     "bcrypt": "^5.1.1",
     "express": "^4.21.1",
     "prisma": "^5.22.0",
+    "uuid": "^11.0.3",
     "winston": "^3.17.0",
     "zod": "^3.23.8"
   },
@@ -24,6 +24,7 @@
     "@types/bcrypt": "^5.0.2",
     "@types/express": "^5.0.0",
     "@types/node": "^22.9.0",
+    "@types/uuid": "^10.0.0",
     "nodemon": "^3.1.7",
     "typescript": "^5.6.3"
   }

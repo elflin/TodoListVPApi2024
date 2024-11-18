@@ -1,3 +1,15 @@
 node_modules
 # Keep environment variables out of version control
 .env
+dist/main.js
+dist/application/app.js
+dist/application/database.js
+dist/application/logging.js
+dist/controllers/user-controller.js
+dist/errors/response-error.js
+dist/middlewares/error-middleware.js
+dist/models/user-model.js
+dist/Routers/public-router.js
+dist/services/auth-service.js
+dist/validations/user-validation.js
+dist/validations/validation.js
