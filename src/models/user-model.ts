@@ -6,6 +6,11 @@ export interface RegisterUserRequest{
     password: string
 }
 
+export interface LoginUserRequest{
+    email: string
+    password: string
+}
+
 export interface UserResponse{
     token?: string
     username: string
